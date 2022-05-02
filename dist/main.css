@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-size: 10% 10%;
+    background: linear-gradient(160deg, #457b9d 0%, #a8dadc 80%);
+}
+
+.time_block {
+    background: rgb(0, 0, 0, 30%);
+    width: 150px;
+    padding: 10px 10px 20px;
+    border-radius: 10px;
+    margin: 25px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+}
+
+.time {
+    text-align: center;
+    color: white;
+}
+
+.control_panel {
+    display: flex;
+    gap: 5px;
+}
+
+/* .input_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input_time {
+    display: inline;
+    width: 50;
+    border-radius: 7px;
+} */
+
+.control_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    font-size: 15px;
+    color: #0b0a35;
+    padding: 5px 3px;
+    width: 45%;
+    border-radius: 7px;
+    border-width: 0px;
+}
+
+.start {
+    background: rgb(121, 202, 137);
+}
+
+.resume {
+    background: rgb(121, 202, 137);
+}
+
+.stop {
+    background: rgb(136, 35, 35);
+}
